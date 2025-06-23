@@ -1,447 +1,597 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-<head>
-	<meta charset="utf-8">
-	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>SEDS CUSAT</title>
+    <meta
+      content="SEDS CUSAT is a vibrant community of like-minded people who would love to be a part of a large family fascinated with the same interest, love, and craze for space."
+      name="description"
+    >
+    <meta
+      content="SEDS CUSAT, Space Enthusiasts, Space Community, CUSAT, SEDS"
+      name="keywords"
+    >
+    <meta name="author" content="SEDS CUSAT">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#000000">
 
-	<title>SEDS CUSAT</title>
-	<meta content="SEDS CUSAT is a vibrant community of like-minded people who would love to be a part of a large family fascinated with the same interest, love, and craze for space." name="description">
-	<meta content="SEDS CUSAT, Space Enthusiasts, Space Community, CUSAT, SEDS" name="keywords">
-	<meta name="author" content="SEDS CUSAT">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="theme-color" content="#000000">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sedscusat.com/">
+    <meta property="og:title" content="SEDS CUSAT">
+    <meta
+      property="og:description"
+      content="SEDS CUSAT is a vibrant community of like-minded people who would love to be a part of a large family fascinated with the same interest, love, and craze for space."
+    >
+    <meta property="og:image" content="assets/img/icon.png">
+    <meta property="og:image:alt" content="SEDS CUSAT Logo">
+    <meta property="og:site_name" content="SEDS CUSAT">
+    <!-- Favicons -->
+    <link href="assets/img/icon.png" rel="icon">
 
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap"
+      rel="stylesheet"
+    >
 
-	<meta property="og:type" content="website">
-	<meta property="og:url" content="https://sedscusat.com/">
-	<meta property="og:title" content="SEDS CUSAT">
-	<meta property="og:description"
-		content="SEDS CUSAT is a vibrant community of like-minded people who would love to be a part of a large family fascinated with the same interest, love, and craze for space.">
-	<meta property="og:image" content="assets/img/icon.png">
-	<meta property="og:image:alt" content="SEDS CUSAT Logo">
-	<meta property="og:site_name" content="SEDS CUSAT">
-	<!-- Favicons -->
-	<link href="assets/img/icon.png" rel="icon">
+    <!-- Bootstrap CSS CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    >
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.min.css"
+      integrity="sha512-xnP2tOaCJnzp2d2IqKFcxuOiVCbuessxM6wuiolT9eeEJCyy0Vhcwa4zQvdrZNVqlqaxXhHqsSV1Ww7T2jSCUQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    >
 
-	<!-- Google Fonts -->
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link
-		href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap"
-		rel="stylesheet">
+    <!-- TailwindCSS  -->
+    <script src="https://cdn.tailwindcss.com"></script>
 
-	<!-- Bootstrap CSS CDN -->
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-	<link rel="stylesheet"
-		href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.min.css"
-		integrity="sha512-xnP2tOaCJnzp2d2IqKFcxuOiVCbuessxM6wuiolT9eeEJCyy0Vhcwa4zQvdrZNVqlqaxXhHqsSV1Ww7T2jSCUQ=="
-		crossorigin="anonymous" referrerpolicy="no-referrer" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Slideshow animation -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.css"
+    >
 
-	<!-- TailwindCSS  -->
-	<script src="https://cdn.tailwindcss.com"></script>
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/blog.css">
+  </head>
 
-	<!-- Slideshow animation -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.css">
+  <body>
+    <!-- ======= Hero Section ======= -->
+    <section id="hero">
+      <div class="hero-container">
+        <video autoplay muted loop id="myVideo">
+          <source src="assets/video/tablet-hero-video.mp4" type="video/mp4">
+        </video>
+      </div>
+    </section>
+    <!-- End Hero -->
 
-	<!-- Template Main CSS File -->
-	<link href="assets/css/style.css" rel="stylesheet">
-	<link rel="stylesheet" href="assets/css/blog.css">
+    <!-- ======= Header ======= -->
 
-</head>
+    <!-- navbar -->
+    <header id="header" class="d-flex align-items-center">
+      <div
+        class="container-fluid d-flex align-items-center justify-content-lg-between"
+      >
+        <a href="#hero" class="logo me-auto me-lg-0"><img
+            src="assets/img/logo.png"
+            alt="navbar-logo"
+            class="img-fluid"
+          ></a>
+        <nav id="navbar" class="navbar order-last order-lg-0">
+          <ul>
+            <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+            <li><a class="nav-link scrollto" href="#about">About</a></li>
+            <li><a class="nav-link scrollto" href="#events">Events</a></li>
+            <li><a class="nav-link scrollto" href="#projects">Projects</a></li>
+            <li><a class="nav-link scrollto" href="#blogs">Blogs</a></li>
+            <li><a class="nav-link scrollto" href="#team">Team</a></li>
+            <li><a class="nav-link scrollto" href="#alumni">Alumni</a></li>
+            <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
+            <!-- <li class="bg-blue-800"><a href="payment.html" class="nav-link scrollto" href="#gallery">Payment</a></li> -->
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- navbar -->
+        <div class="header-social-links d-flex align-items-center">
+          <a
+            href="https://www.instagram.com/ires_cusat/?hl=en"
+            target="blank"
+            class="instagram"
+          ><i class="bi bi-instagram"></i></a>
+          <a
+            href="https://www.facebook.com/SedsCusatIrescusat/"
+            target="blank"
+            class="facebook"
+          ><i class="bi bi-facebook"></i></a>
+          <a
+            href="https://www.linkedin.com/company/sedscusat/"
+            target="blank"
+            class="linkedin"
+          ><i class="bi bi-linkedin"></i></a>
+          <a
+            href="https://twitter.com/CusatSeds"
+            target="blank"
+            class="twitter"
+          ><i class="bi bi-twitter"></i></a>
+        </div>
+      </div>
+    </header>
+    <!-- End Header -->
 
-<body>
+    <main id="main">
+      <!-- ======= About Section ======= -->
+      <section id="about" class="about">
+        <div class="container" data-aos="fade-up">
+          <div class="row">
+            <div
+              class="col-lg-6 order-1 order-lg-2"
+              data-aos="zoom-in"
+              data-aos-delay="100"
+            >
+              <div class="about-img">
+                <img
+                  src="https://seds-cusat.github.io/Image-Hoster/website/about.jpg"
+                  alt=""
+                >
+              </div>
+            </div>
+            <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+              <div class="section-title">
+                <h2>About Us</h2>
+                <p style="text-align: justify">
+                  SEDS CUSAT is a vibrant community of like-minded people who
+                  would love to be a part of a large family fascinated with the
+                  same interest, love, and craze for space. We are a group of
+                  space enthusiasts who get together to discuss, explore, and
+                  have fun with the marvels of the cosmos. SEDS CUSAT organizes
+                  and coordinates a spectrum of technical competitions,
+                  engineering projects, workshops, social events, seminars, and
+                  outreach programs for the SpaceFam. We take the initiative to
+                  learn from one another and broaden our knowledge about space
+                  by creating memories to look back and cherish as we gaze up at
+                  the stars and beyond.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End About Section -->
 
-	<!-- ======= Hero Section ======= -->
-	<section id="hero">
-		<div class="hero-container">
-			<video autoplay muted loop id="myVideo">
-				<source src="assets/video/tablet-hero-video.mp4" type="video/mp4">
-			</video>
-		</div>
-	</section>
-	<!-- End Hero -->
+      <!-- ======= Events section ======= -->
+      <section id="events" class="events-grid">
+        <div class="events-container">
+          <div class="section-title">
+            <h2>Events</h2>
+          </div>
+          <div class="eventWrapper">
+            <div class="event">
+              <div class="event--img">
+                <a href="assets/img/board.jpg">
+                  <!--give the link of the poster-->
+                  <img src="assets/img/board.jpg" alt="poster">
+                  <!--give the link of the poster again-->
+                </a>
+              </div>
+              <div class="event--date">
+                <span id="date-details">September</span>
+                <span id="date">04</span>
+                <span id="date-details">2021</span>
+                <span id="date-details"><a
+                    style="color: #fff"
+                    href="https://youtu.be/FF121er69zk"
+                    target="_blank"
+                  >Google meet</a></span>
+              </div>
+              <!--insert meet link in the hashtag there-->
+              <div class="event--content">
+                <h2>
+                  <a href="https://youtu.be/FF121er69zk" target="_blank"
+                  >INAUGRAL CEREMONY OF SEDS CUSAT BOARD COMMITTEE 2021-22</a>
+                </h2>
+                <div class="event--content-info">
+                  <div><time>11:30 AM – 12:30 PM</time></div>
+                </div>
+                <p class="event--content-ensemble">
+                  SEDS CUSAT unveils our new website and executive board 2021 to
+                  our members, volunteers and all space enthusiasts
+                </p>
+                <div class="event--content-social">
+                  <a
+                    href="https://www.instagram.com/ires_cusat/?hl=en"
+                    target="blank"
+                    class="instagram"
+                  ><i class="bi bi-instagram"></i></a>
+                  <a
+                    href="https://www.facebook.com/SedsCusatIrescusat/"
+                    target="blank"
+                    class="facebook"
+                  ><i class="bi bi-facebook"></i></a>
+                  <a
+                    href="https://www.linkedin.com/company/sedscusat/"
+                    target="blank"
+                    class="linkedin"
+                  ><i class="bi bi-linkedin"></i></a>
+                  <a
+                    href="https://twitter.com/CusatSeds"
+                    target="blank"
+                    class="twitter"
+                  ><i class="bi bi-twitter"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a href=""><button id="blog_more" class="blog-more">
+              Coming soon
+            </button></a>
+        </div>
+      </section>
+      <!-- End Events Section -->
 
-	<!-- ======= Header ======= -->
+      <!-- ======= projects Section ======= -->
+      <section id="projects" class="projects">
+        <div class="container">
+          <div class="section-title">
+            <h2 class="project-heading">Projects</h2>
+          </div>
 
-	<!-- navbar -->
-	<header id="header" class="d-flex align-items-center ">
-		<div class="container-fluid d-flex align-items-center justify-content-lg-between">
-			<a href="#hero" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="navbar-logo"
-					class="img-fluid"></a>
-			<nav id="navbar" class="navbar order-last order-lg-0">
-				<ul>
-					<li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-					<li><a class="nav-link scrollto" href="#about">About</a></li>
-					<li><a class="nav-link scrollto" href="#events">Events</a></li>
-					<li><a class="nav-link scrollto" href="#projects">Projects</a></li>
-					<li><a class="nav-link scrollto" href="#blogs">Blogs</a></li>
-					<li><a class="nav-link scrollto" href="#team">Team</a></li>
-					<li><a class="nav-link scrollto" href="#alumni">Alumni</a></li>
-					<li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
-					<!-- <li class="bg-blue-800"><a href="payment.html" class="nav-link scrollto" href="#gallery">Payment</a></li> -->
-				</ul>
-				<i class="bi bi-list mobile-nav-toggle"></i>
-			</nav>
-			<!-- navbar -->
-			<div class="header-social-links d-flex align-items-center">
-				<a href="https://www.instagram.com/ires_cusat/?hl=en" target="blank" class="instagram"><i
-						class="bi bi-instagram"></i></a>
-				<a href="https://www.facebook.com/SedsCusatIrescusat/" target="blank" class="facebook"><i
-						class="bi bi-facebook"></i></a>
-				<a href="https://www.linkedin.com/company/sedscusat/" target="blank" class="linkedin"><i
-						class="bi bi-linkedin"></i></i></a>
-				<a href="https://twitter.com/CusatSeds" target="blank" class="twitter"><i class="bi bi-twitter"></i></a>
-			</div>
-		</div>
-	</header>
-	<!-- End Header -->
+          <div class="grid">
+            <figure class="effect-milo">
+              <img
+                src="https://seds-cusat.github.io/Image-Hoster/website/Project1.jpeg"
+                height="500"
+                width="500"
+                alt="Project1"
+              />
+              <figcaption>
+                <h2>
+                  Project<span> &emsp;1</span>
+                  <br><label style="font-size: 18px; text-align: right"
+                  >CANSAT&emsp;COMPETITION</label>
+                </h2>
 
-	<main id="main">
+                <p style="text-align: right">
+                  An annual design build launch competition for space related
+                  topics conducting by American Astronautical society (AAS).
+                </p>
+                <a
+                  href="https://medium.com/@sedscusat/project-1-b3ef32cbc474"
+                  target="blank"
+                >View more</a>
+                <!-- publish projects and add link here !-->
+              </figcaption>
+            </figure>
+            <figure class="effect-milo">
+              <img
+                src="https://seds-cusat.github.io/Image-Hoster/website/Project2.jpeg"
+                height="500"
+                width="500"
+                alt="img03"
+              />
+              <figcaption>
+                <h2>
+                  Project<span> &emsp;2</span><label
+                    style="font-size: 18px; text-align: right"
+                  >SAE&emsp;Aero&emsp;Design</label>
+                </h2>
 
-		<!-- ======= About Section ======= -->
-		<section id="about" class="about">
-			<div class="container" data-aos="fade-up">
-				<div class="row">
-					<div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="100">
-						<div class="about-img">
-							<img src="https://seds-cusat.github.io/Image-Hoster/website/about.jpg" alt="">
-						</div>
-					</div>
-					<div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
-						<div class="section-title">
-							<h2>About Us</h2>
-							<p style=" text-align: justify;">
-								SEDS CUSAT is a vibrant community of like-minded people who would love to be a part of a
-								large family fascinated with the same interest, love, and craze for space. We are a
-								group of space enthusiasts who get together to discuss, explore, and have fun with the
-								marvels of the cosmos. SEDS CUSAT organizes and coordinates a spectrum of technical
-								competitions, engineering projects, workshops, social events, seminars, and outreach
-								programs for the SpaceFam.
-								We take the initiative to learn from one another and broaden our knowledge about space
-								by creating memories to look back and cherish as we gaze up at the stars and beyond.
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- End About Section -->
+                <p style="text-align: right">
+                  To design and construct a radio controlled model aircraft that
+                  will lift the largest payload while still maintaining
+                  structural integrity.
+                </p>
+                <a
+                  href="https://medium.com/@sedscusat/sae-aero-design-e02f6907341e"
+                  target="blank"
+                >View more</a>
+                <!-- publish projects and add link here !-->
+              </figcaption>
+            </figure>
+          </div>
+          <div class="project-button-div">
+            <a href="https://medium.com/@sedscusat"><button
+                id="blog_more"
+                class="blog-more"
+              >
+                Read more
+              </button></a>
+          </div>
+        </div>
+      </section>
+      <!-- Project Section -->
 
-		<!-- ======= Events section ======= -->
-		<section id="events" class="events-grid">
-			<div class="events-container">
-				<div class="section-title">
-					<h2>Events</h2>
-				</div>
-				<div class="eventWrapper">
-					<div class="event">
-						<div class="event--img">
-							<a href="assets/img/board.jpg">
-								<!--give the link of the poster-->
-								<img src="assets/img/board.jpg" alt="poster">
-								<!--give the link of the poster again-->
-							</a>
-						</div>
-						<div class="event--date"><span id="date-details">September</span><span id="date">04</span><span
-								id="date-details">2021</span><span id="date-details"><a style="color: #fff;"
-									href="https://youtu.be/FF121er69zk" target="_blank">Google
-									meet</a></span></div>
-						<!--insert meet link in the hashtag there-->
-						<div class="event--content">
-							<h2><a href="https://youtu.be/FF121er69zk" target="_blank">INAUGRAL CEREMONY OF SEDS CUSAT
-									BOARD COMMITTEE 2021-22</a></h2>
-							<div class="event--content-info">
-								<div><time>11:30 AM – 12:30 PM</time></div>
-							</div>
-							<p class="event--content-ensemble">SEDS CUSAT unveils our new website and executive board
-								2021 to our
-								members, volunteers and all space enthusiasts</p>
-							<div class="event--content-social">
-								<a href="https://www.instagram.com/ires_cusat/?hl=en" target="blank"
-									class="instagram"><i class="bi bi-instagram"></i></a>
-								<a href="https://www.facebook.com/SedsCusatIrescusat/" target="blank"
-									class="facebook"><i class="bi bi-facebook"></i></a>
-								<a href="https://www.linkedin.com/company/sedscusat/" target="blank" class="linkedin"><i
-										class="bi bi-linkedin"></i></i></a>
-								<a href="https://twitter.com/CusatSeds" target="blank" class="twitter"><i
-										class="bi bi-twitter"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<a href=""><button id="blog_more" class="blog-more">Coming soon</button></a>
-			</div>
-		</section>
-		<!-- End Events Section -->
+      <!-- ======= Blogs Section ======= -->
+      <section id="blogs" style="min-height: 100vh">
+        <div class="section-title">
+          <h2>Blogs</h2>
+        </div>
+        <div class="container container-blog">
+          <div class="blogcard">
+            <div class="infos">
+              <a
+                href="https://medium.com/@sedscusat/interview-with-yuri-gagarin-but-you-are-yuri-8d394347d635"
+                target="_blank"
+              >
+                <span class="blog-title" style="color: black"
+                >Interview with Yuri Gagarin, but you are Yuri.</span><br>
+                <span class="author-name">Nimisha</span>
+                <span class="date">August 28, 2021</span>
+              </a>
+            </div>
+            <a
+              href="https://medium.com/@sedscusat/interview-with-yuri-gagarin-but-you-are-yuri-8d394347d635"
+              target="_blank"
+            ><img
+                src="https://seds-cusat.github.io/Image-Hoster/blogs/yuri.jpg"
+                alt="blog post 1"
+              ></a>
+          </div>
 
-		<!-- ======= projects Section ======= -->
-		<section id="projects" class="projects">
+          <div class="blogcard">
+            <div class="infos">
+              <a
+                href="https://medium.com/@sedscusat/10-space-related-youtube-channels-every-space-geeks-should-subscribe-to-f22dac3e3a54"
+                target="_blank"
+              >
+                <span class="blog-title" style="color: black"
+                >10 Space-related YouTube channels every space geeks should
+                  subscribe to!</span><br>
+                <span class="author-name">Saqib</span>
+                <span class="date">August 28, 2021</span>
+              </a>
+            </div>
+            <a
+              href="https://medium.com/@sedscusat/10-space-related-youtube-channels-every-space-geeks-should-subscribe-to-f22dac3e3a54"
+              target="_blank"
+            ><img
+                src="https://seds-cusat.github.io/Image-Hoster/blogs/space colorful.jpg"
+                alt="blog post 2"
+              ></a>
+          </div>
 
-			<div class="container">
+          <div class="blogcard">
+            <div class="infos">
+              <a
+                href="https://medium.com/@sedscusat/50th-anniversary-of-apollo-11-moon-landing-c5d0f83d475b"
+                target="_blank"
+              >
+                <span class="blog-title" style="color: black"
+                >50th anniversary of Apollo 11 moon landing</span><br>
+                <span class="author-name">Sradha</span>
+                <span class="date">August 28, 2021</span>
+              </a>
+            </div>
+            <a
+              href="https://medium.com/@sedscusat/50th-anniversary-of-apollo-11-moon-landing-c5d0f83d475b"
+              target="_blank"
+            ><img
+                src="https://seds-cusat.github.io/Image-Hoster/blogs/apollo 11.jpg"
+                alt="blog post 3"
+              ></a>
+          </div>
+        </div>
+        <a href="https://medium.com/@sedscusat" target="_blank"><button
+            id="blog_more"
+            class="blog-more"
+          >
+            Read more
+          </button></a>
+      </section>
+      <!-- End Blogs Section -->
 
-				<div class="section-title">
-					<h2 class="project-heading">Projects</h2>
-				</div>
+      <!-- ======= Team Section ======= -->
+      <section id="team" class="team">
+        <div class="container">
+          <div class="section-title">
+            <h2>Team</h2>
+          </div>
+          <div class="team-row row">
+            <div class="box col-lg-4">
+              <img
+                src="https://github.com/SEDS-CUSAT/Image-Hoster/blob/main/2024%20(500)/biju.jpg?raw=true"
+                alt=""
+              />
+              <a
+                class="teamname"
+                href="https://www.linkedin.com/in/biju-n-4287a9a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                target="_blank"
+              ><b>Dr.Biju</b><br><small>Faculty Advisor</small></a>
+            </div>
+            <div class="box col-lg-4">
+              <img
+                src="https://github.com/SEDS-CUSAT/Image-Hoster/blob/main/2025/President-K_P_KAILAS_SACHDEV.jpg?raw=true"
+                alt=""
+              />
+              <a class="teamname" target="_blank"><b>K P Kailas Sachdev</b>
+                | <small>President</small></a>
+            </div>
+            <div class="box col-lg-4">
+              <img
+                src="https://github.com/SEDS-CUSAT/Image-Hoster/blob/main/2025/Secretary-Asiya_Fyroos.jpg?raw=true"
+                alt=""
+              />
+              <a class="teamname" target="_blank"><b>Asiya Fyroos</b> |
+                <small>Secretary</small></a>
+            </div>
+          </div>
+          <a href="/team.html"><button class="more">View All</button></a>
+        </div>
+      </section>
+      <!-- End Team Section -->
 
-				<div class="grid">
-					<figure class="effect-milo">
-						<img src="https://seds-cusat.github.io/Image-Hoster/website/Project1.jpeg" height="500"
-							width="500" alt="Project1" />
-						<figcaption>
-							<h2>Project<span> &emsp;1</span><br><label
-									style="font-size: 18px;text-align:right">CANSAT&emsp;COMPETITION</label></h2>
+      <!-- ======= Alumni Section ======= -->
+      <section id="alumni" class="alumni">
+        <div class="container">
+          <div class="section-title">
+            <h2>Alumni</h2>
+          </div>
 
-							<p style="text-align: right;">An annual design build launch competition for space related
-								topics conducting by American Astronautical society (AAS).</p>
-							<a href="https://medium.com/@sedscusat/project-1-b3ef32cbc474" target="blank">View more</a>
-							<!-- publish projects and add link here !-->
-						</figcaption>
-					</figure>
-					<figure class="effect-milo">
-						<img src="https://seds-cusat.github.io/Image-Hoster/website/Project2.jpeg" height="500"
-							width="500" alt="img03" />
-						<figcaption>
-							<h2>Project<span> &emsp;2</span><br><label
-									style="font-size: 18px; text-align:right">SAE&emsp;Aero&emsp;Design</h2>
+          <div class="row justify-content-center">
+            <div class="col-xxl-6 col-lg-8 col-md-10 align-items-stretch">
+              <div class="alumni-box">
+                <div class="row">
+                  <div class="col-md-5 pl-4 pr-0 alumni-member-img">
+                    <img
+                      src="https://seds-cusat.github.io/Image-Hoster/2019/Achyuth.jpg"
+                      class="img-fluid mx-auto d-block rounded"
+                      alt="..."
+                    >
+                  </div>
+                  <div class="col-md-7 px-4 text-md-start">
+                    <h5 class="alumni-name">Achyuth Rajendran</h5>
+                    <ul>
+                      <h5>Founder</h5>
+                      <li>Mechanical Engineering - 2018</li>
+                      <li>
+                        Research Intern at Indian Institute of Space Science and
+                        Technology
+                      </li>
+                      <li>Masters Student at University of Florida</li>
+                      <li>IRES President : Feb-June 2017</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="btn-wrap">
+            <a href="alumni.html"><button class="more">View all</button></a>
+          </div>
+        </div>
+      </section>
+      <!-- End Alumni Section -->
 
-							<p style="text-align: right;">To design and construct a radio controlled model aircraft that
-								will lift the largest payload while still maintaining structural integrity.</p>
-							<a href="https://medium.com/@sedscusat/sae-aero-design-e02f6907341e" target="blank">View
-								more</a>
-							<!-- publish projects and add link here !-->
-						</figcaption>
-					</figure>
+      <!-- ======= Gallery Section ======= -->
+      <section id="gallery">
+        <div class="section-title">
+          <h2>Gallery</h2>
+        </div>
+        <div class="seds-gallery container">
+          <div class="row">
+            <div class="col-md-4 seds-gallery-grid-item">
+              <a
+                class="lightbox"
+                href="https://seds-cusat.github.io/Image-Hoster/gallery/DSC_0064.NEF-min.jpg"
+              >
+                <img
+                  src="https://seds-cusat.github.io/Image-Hoster/gallery/DSC_0064.NEF-min.jpg"
+                  class="img-fluid mx-auto d-block"
+                  alt="#"
+                >
+              </a>
+            </div>
+            <div class="col-md-4 seds-gallery-grid-item">
+              <a
+                class="lightbox"
+                href="https://seds-cusat.github.io/Image-Hoster/gallery/DSC_0954-min.JPG"
+              >
+                <img
+                  src="https://seds-cusat.github.io/Image-Hoster/gallery/DSC_0954-min.JPG"
+                  class="img-fluid mx-auto d-block"
+                  alt="#"
+                >
+              </a>
+            </div>
+            <div class="col-md-4 seds-gallery-grid-item">
+              <a
+                class="lightbox"
+                href="https://seds-cusat.github.io/Image-Hoster/gallery/DSC_0973-min.JPG"
+              >
+                <img
+                  src="https://seds-cusat.github.io/Image-Hoster/gallery/DSC_0973-min.JPG"
+                  class="img-fluid mx-auto d-block"
+                  alt="#"
+                >
+              </a>
+            </div>
+          </div>
+        </div>
+        <a href="gallery.html"><button class="more">View All</button></a>
+      </section>
+      <!-- End Gallery Section -->
+    </main>
+    <!-- End #main -->
 
-				</div>
-				<div class="project-button-div">
-					<a href="https://medium.com/@sedscusat"><button id="blog_more" class="blog-more">Read
-							more</button></a>
-				</div>
-			</div>
+    <!-- ======= Footer ======= -->
+    <footer class="footer-section">
+      <div class="copyright-area">
+        <div class="container">
+          <div class="row">
+            <div class="copyright-text">
+              <div
+                class="flex flex-col align-items-center justify-content-center gap-y-2"
+              >
+                <span class="tracking-widest">&copy; 2025 Created By</span>
+                <img
+                  class="footer-logo w-32 h-auto"
+                  src="assets/img/logo.png"
+                  alt=""
+                >
+                <span class="tracking-widest">All Rights Reserved</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
 
-		</section>
-		<!-- Project Section -->
+    <!-- </main>End #main -->
 
-		<!-- ======= Blogs Section ======= -->
-		<section id="blogs" style="min-height: 100vh;">
-			<div class="section-title">
-				<h2>Blogs</h2>
-			</div>
-			<div class="container container-blog">
+    <div id="preloader"></div>
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+    ><i class="bi bi-arrow-up-short"></i></a>
 
-				<div class="blogcard">
-					<div class="infos">
-						<a href="https://medium.com/@sedscusat/interview-with-yuri-gagarin-but-you-are-yuri-8d394347d635"
-							target="_blank">
-							<span class="blog-title" style="color: black;">Interview with Yuri Gagarin, but you are
-								Yuri.</span><br>
-							<span class="author-name">Nimisha</span>
-							<span class="date">August 28, 2021</span>
-						</a>
-					</div>
-					<a href="https://medium.com/@sedscusat/interview-with-yuri-gagarin-but-you-are-yuri-8d394347d635"
-						target="_blank"><img src="https://seds-cusat.github.io/Image-Hoster/blogs/yuri.jpg"
-							alt="blog post 1"></a>
-				</div>
+    <!-- CDN JS Files -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.0.1/swiper-bundle.min.js"
+      integrity="sha512-sRIpMolH1mH84KE0MOk2DGR+EcopqZBacqrVyxOFrVF2tOncVvahXLx5odSF75Hhhhfsn9HOmXTjOteD9Bjs6g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
 
-				<div class="blogcard">
-					<div class="infos">
-						<a href="https://medium.com/@sedscusat/10-space-related-youtube-channels-every-space-geeks-should-subscribe-to-f22dac3e3a54"
-							target="_blank">
-							<span class="blog-title" style="color: black;">10 Space-related YouTube channels every space
-								geeks should
-								subscribe to!</span><br>
-							<span class="author-name">Saqib</span>
-							<span class="date">August 28, 2021</span>
-						</a>
-					</div>
-					<a href="https://medium.com/@sedscusat/10-space-related-youtube-channels-every-space-geeks-should-subscribe-to-f22dac3e3a54"
-						target="_blank"><img src="https://seds-cusat.github.io/Image-Hoster/blogs/space colorful.jpg"
-							alt="blog post 2"></a>
-				</div>
+    <!-- Gallery slideshow animation -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.js"
+    ></script>
+    <script>
+      baguetteBox.run(".seds-gallery");
+      baguetteBox.run(".event--img");
+    </script>
 
-				<div class="blogcard">
-					<div class="infos">
-						<a href="https://medium.com/@sedscusat/50th-anniversary-of-apollo-11-moon-landing-c5d0f83d475b"
-							target="_blank">
-							<span class="blog-title" style="color: black;">50th anniversary of Apollo 11 moon
-								landing</span><br>
-							<span class="author-name">Sradha</span>
-							<span class="date">August 28, 2021</span>
-						</a>
-					</div>
-					<a href="https://medium.com/@sedscusat/50th-anniversary-of-apollo-11-moon-landing-c5d0f83d475b"
-						target="_blank"><img src="https://seds-cusat.github.io/Image-Hoster/blogs/apollo 11.jpg"
-							alt="blog post 3"></a>
-				</div>
-			</div>
-			<a href="https://medium.com/@sedscusat" target="_blank"><button id="blog_more" class="blog-more">Read
-					more</button></a>
-
-		</section>
-		<!-- End Blogs Section -->
-
-		<!-- ======= Team Section ======= -->
-		<section id="team" class="team">
-			<div class="container">
-
-				<div class="section-title">
-					<h2>Team</h2>
-
-				</div>
-				<div class="team-row row">
-					<div class="box col-lg-4">
-						<img src="https://github.com/SEDS-CUSAT/Image-Hoster/blob/main/2024%20(500)/biju.jpg?raw=true"
-							alt="" />
-						<a class="teamname"
-							href="https://www.linkedin.com/in/biju-n-4287a9a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-							target="_blank"><b>Dr.Biju</b><br><small>Faculty Advisor</small></a>
-					</div>
-					<div class="box col-lg-4">
-						<img src="https://github.com/SEDS-CUSAT/Image-Hoster/blob/main/2025/President-K_P_KAILAS_SACHDEV.jpg?raw=true"
-							alt="" />
-						<a class="teamname" target="_blank"><b>K P Kailas Sachdev</b>
-							| <small>President</small></a>
-					</div>
-					<div class="box col-lg-4">
-						<img src="https://github.com/SEDS-CUSAT/Image-Hoster/blob/main/2025/Secretary-Asiya_Fyroos.jpg?raw=true"
-							alt="" />
-						<a class="teamname" target="_blank"><b>Asiya Fyroos</b> |
-							<small>Secretary</small></a>
-
-					</div>
-				</div>
-				<a href="/team.html"><button class="more">View All</button></a>
-
-			</div>
-		</section>
-		<!-- End Team Section -->
-
-
-		<!-- ======= Alumni Section ======= -->
-		<section id="alumni" class="alumni">
-			<div class="container">
-
-				<div class="section-title">
-					<h2>Alumni</h2>
-				</div>
-
-				<div class="row justify-content-center">
-					<div class="col-xxl-6 col-lg-8 col-md-10 align-items-stretch">
-						<div class="alumni-box">
-
-							<div class="row">
-								<div class="col-md-5 pl-4 pr-0 alumni-member-img">
-									<img src="https://seds-cusat.github.io/Image-Hoster/2019/Achyuth.jpg"
-										class="img-fluid mx-auto d-block rounded" alt="...">
-								</div>
-								<div class="col-md-7 px-4 text-md-start">
-									<h5 class="alumni-name">Achyuth Rajendran</h5>
-									<ul>
-										<h5>Founder</h5>
-										<li>Mechanical Engineering - 2018</li>
-										<li>Research Intern at Indian Institute of Space Science and Technology</li>
-										<li>Masters Student at University of Florida</li>
-										<li>IRES President : Feb-June 2017</li>
-									</ul>
-								</div>
-							</div>
-
-						</div>
-					</div>
-				</div>
-				<div class="btn-wrap">
-					<a href="alumni.html"><button class="more">View all</button></a>
-
-				</div>
-			</div>
-		</section>
-		<!-- End Alumni Section -->
-
-		<!-- ======= Gallery Section ======= -->
-		<section id="gallery">
-			<div class="section-title">
-				<h2>Gallery</h2>
-			</div>
-			<div class="seds-gallery container">
-				<div class="row">
-					<div class="col-md-4 seds-gallery-grid-item">
-						<a class="lightbox"
-							href="https://seds-cusat.github.io/Image-Hoster/gallery/DSC_0064.NEF-min.jpg">
-							<img src="https://seds-cusat.github.io/Image-Hoster/gallery/DSC_0064.NEF-min.jpg"
-								class="img-fluid mx-auto d-block" alt="#">
-						</a>
-					</div>
-					<div class="col-md-4 seds-gallery-grid-item">
-						<a class="lightbox" href="https://seds-cusat.github.io/Image-Hoster/gallery/DSC_0954-min.JPG">
-							<img src="https://seds-cusat.github.io/Image-Hoster/gallery/DSC_0954-min.JPG"
-								class="img-fluid mx-auto d-block" alt="#">
-						</a>
-					</div>
-					<div class="col-md-4 seds-gallery-grid-item">
-						<a class="lightbox" href="https://seds-cusat.github.io/Image-Hoster/gallery/DSC_0973-min.JPG">
-							<img src="https://seds-cusat.github.io/Image-Hoster/gallery/DSC_0973-min.JPG"
-								class="img-fluid mx-auto d-block" alt="#">
-						</a>
-					</div>
-				</div>
-			</div>
-			<a href="gallery.html"><button class="more">View All</button></a>
-		</section>
-		<!-- End Gallery Section -->
-
-	</main>
-	<!-- End #main -->
-
-	<!-- ======= Footer ======= -->
-	<footer class="footer-section">
-		<div class="copyright-area">
-			<div class="container">
-				<div class="row">
-					<div class="copyright-text">
-						<div class="flex flex-col align-items-center justify-content-center gap-y-2">
-							<span class="tracking-widest">&copy; 2025 Created By</span>
-							<img class="footer-logo w-32 h-auto" src="assets/img/logo.png" alt="">
-							<span class="tracking-widest">All Rights Reserved</span>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</footer>
-	<!-- End Footer -->
-
-	</main><!-- End #main -->
-
-	<div id="preloader"></div>
-	<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-			class="bi bi-arrow-up-short"></i></a>
-
-	<!-- CDN JS Files -->
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-		crossorigin="anonymous"></script>
-	<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.0.1/swiper-bundle.min.js"
-		integrity="sha512-sRIpMolH1mH84KE0MOk2DGR+EcopqZBacqrVyxOFrVF2tOncVvahXLx5odSF75Hhhhfsn9HOmXTjOteD9Bjs6g=="
-		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-	<!-- Gallery slideshow animation -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.js"></script>
-	<script>
-		baguetteBox.run('.seds-gallery');
-		baguetteBox.run('.event--img');
-	</script>
-
-	<!-- Template Main JS File -->
-	<script src="assets/js/main.js"></script>
-	<!-- about section transition -->
-	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-	<script>AOS.init();</script>
-
-</body>
-
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+    <!-- about section transition -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>

@@ -14,7 +14,8 @@
 
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
-[**🌐 Visit Website**](https://sedscusat.com) | [**📱 Follow Us**](#-connect-with-us)
+[**🌐 Visit Website**](https://sedscusat.com) |
+[**📱 Follow Us**](#-connect-with-us)
 
 </div>
 
@@ -22,17 +23,24 @@
 
 ## 🌟 About SEDS CUSAT
 
-**SEDS CUSAT** is a vibrant community of like-minded people who would love to be a part of a large family fascinated with the same interest, love, and craze for **space**. We are a group of space enthusiasts who get together to discuss, explore, and have fun with the marvels of the cosmos.
+**SEDS CUSAT** is a vibrant community of like-minded people who would love to be
+a part of a large family fascinated with the same interest, love, and craze for
+**space**. We are a group of space enthusiasts who get together to discuss,
+explore, and have fun with the marvels of the cosmos.
 
 ### 🎯 What We Do
 
-- 🛰️ **Technical Competitions** - Challenging space-related engineering competitions
+- 🛰️ **Technical Competitions** - Challenging space-related engineering
+  competitions
 - 🔬 **Engineering Projects** - Hands-on space technology projects
-- 🎓 **Workshops & Seminars** - Educational sessions on space science and technology
+- 🎓 **Workshops & Seminars** - Educational sessions on space science and
+  technology
 - 🎉 **Social Events** - Building the SpaceFam community
 - 🌍 **Outreach Programs** - Spreading space awareness and education
 
-We take the initiative to learn from one another and broaden our knowledge about space by creating memories to look back and cherish as we gaze up at the stars and beyond.
+We take the initiative to learn from one another and broaden our knowledge about
+space by creating memories to look back and cherish as we gaze up at the stars
+and beyond.
 
 ---
 
@@ -198,7 +206,8 @@ We welcome contributions from the space community! Here's how you can help:
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
+for details.
 
 ---
 
